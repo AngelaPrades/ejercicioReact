@@ -6,6 +6,8 @@ import { MemberHead } from './memberHead';
 import {} from 'core-js';
 
 interface Props {
+  orgName: string;
+  onChange: (event) => void;
 }
 
 // We define members as a state (the compoment holding this will be a container
